@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+
+
+:root {
+  --background: 555% 0% 0%; 
+  --foreground: 0 0% 100%; 
+}
+
+
+body {
+  background: linear-gradient(to bottom right, 
+    rgb(0, 0, 0), 
+    rgb(31, 15, 72), 
+    rgb(0, 0, 0)  
+  );
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#__next, 
+#root {    
+  min-height: 100vh;
+}
